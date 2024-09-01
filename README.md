@@ -1,41 +1,38 @@
-# Calculadora JavaScript
+# JavaScript Calculator
 
-Criei essa calculadora simples construída com HTML, CSS e JavaScript. O projeto serve para calcular operações básicas e uma função de raiz quadrada.
+I created this simple calculator built with HTML, CSS, and JavaScript. The project is designed to perform basic arithmetic operations and includes a square root function.
 
-## Funcionalidades
+## Features
 
-- **Operações Básicas:** Adição, subtração, multiplicação e divisão.
-- **Função de Raiz Quadrada:** Calcula a raiz quadrada do número exibido.
-- **Botão de Limpeza(C):** Reseta o display para 0.
-- **Interface Responsiva:** Funciona bem em diferentes tamanhos de tela.
+- **Basic Operations:** Addition, subtraction, multiplication, and division.
+- **Square Root Function:** Calculates the square root of the displayed number.
+- **Clear Button (C):** Resets the display to 0.
+- **Responsive Interface:** Works well on different screen sizes.
 
-## Tecnologias Usadas
+## Technologies Used
 
-- **HTML:** Estrutura básica da página.
-- **CSS:** Estilo e design da calculadora.
-- **JavaScript:** Lógica de cálculo e manipulação da interface.
+- **HTML:** Basic structure of the page.
+- **CSS:** Styling and design of the calculator.
+- **JavaScript:** Calculation logic and interface manipulation.
 
-## Como Usar
+## How to Use
 
-1. **Clone o Repositório:**
+1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/seu-usuario/calculadora-js.git
+   git clone https://github.com/frontdev1254/calculator-js.git
 
-2. **Navegue até o diretório do projeto:**
-cd calculadora-js
+2. **Navigate to the Project Directory:**
+cd calculator-js
 
-3. **Navegue até o diretório do projeto:**
-Abra index.html em seu navegador para utilizar a calculadora.
+3. **Open the Project:**
+Open index.html in your web browser to use the calculator
 
-4. **Navegue até o diretório do projeto:**
-Utilize os botões para realizar operações matemáticas.
-Use o botão "C" para limpar o display.
-Clique no botão "√" para calcular a raiz quadrada do número exibido.
+4. **Open the Project:**
+Use the buttons to perform mathematical operations. Use the "C" button to clear the display. Click the "√" button to calculate the square root of the displayed number.
 
-## Contato
+**For questions or suggestions, you can reach me att:**
 
-Para perguntas ou sugestões, você pode me encontrar em:
+LinkedIn: https://www.linkedin.com/in/frontdev1254/
+GitHub: https://github.com/frontdev1254
 
-- **LinkedIn:** https://www.linkedin.com/in/frontdev1254/
-- **GitHub:** https://github.com/frontdev1254
 
