@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Reseta o display para 0 ao clicar no botão 'C'
             if (button.classList.contains('clear')) {
                 display.innerText = '0';
-            } 
+            }
             // Avalia a expressão matemática
             else if (value === '=') {
                 try {
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 } catch {
                     display.innerText = 'Erro';
                 }
-            } 
+            }
             // Calcula a raiz quadrada
             else if (value === '√') {
                 try {
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 } catch {
                     display.innerText = 'Erro';
                 }
-            } 
+            }
             // Adiciona o valor ao display
             else {
                 if (display.innerText === '0' || display.innerText === 'Erro') {
