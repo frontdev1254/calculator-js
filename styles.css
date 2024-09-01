@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.display {
+    background-color: #444;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Arial, sans-serif;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: #666;
+}
+
+.clear {
+    grid-column: span 2;
+    background-color: #1877F2;
+}
+
+#zero {
+    grid-column: span 2;
+}
+
+.btn[data-value="."] {
+    grid-column: span 1;
+}
