@@ -30,7 +30,7 @@ Open index.html in your web browser to use the calculator
 4. **Open the Project:**
 Use the buttons to perform mathematical operations. Use the "C" button to clear the display. Click the "√" button to calculate the square root of the displayed number.
 
-**For questions or suggestions, you can reach me att:**
+**For questions or suggestions, you can reach me at:**
 
 LinkedIn: https://www.linkedin.com/in/frontdev1254/
 GitHub: https://github.com/frontdev1254
