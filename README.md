@@ -35,4 +35,8 @@ Use the buttons to perform mathematical operations. Use the "C" button to clear 
 LinkedIn: https://www.linkedin.com/in/frontdev1254/
 GitHub: https://github.com/frontdev1254
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 

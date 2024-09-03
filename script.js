@@ -1,3 +1,4 @@
+// Licensed under the MIT License. See LICENSE file in the project root for details.
 document.addEventListener('DOMContentLoaded', () => {
     const display = document.getElementById('display');
     const buttons = document.querySelectorAll('.btn');
@@ -6,11 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
         button.addEventListener('click', () => {
             const value = button.getAttribute('data-value');
 
-            // Reseta o display para 0 ao clicar no botão 'C'
+            // Resets the display to 0 when the 'C' button is clicked
             if (button.classList.contains('clear')) {
                 display.innerText = '0';
             }
-            // Avalia a expressão matemática
+            // Evaluates the mathematical expression
             else if (value === '=') {
                 try {
                     const result = evaluateExpression(display.innerText);
@@ -19,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     display.innerText = 'Erro';
                 }
             }
-            // Calcula a raiz quadrada
+            // Calculates the square root
             else if (value === '√') {
                 try {
                     const currentValue = parseFloat(display.innerText);
@@ -32,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     display.innerText = 'Erro';
                 }
             }
-            // Adiciona o valor ao display
+            // Adds the value to the display
             else {
                 if (display.innerText === '0' || display.innerText === 'Erro') {
                     display.innerText = value;
@@ -43,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Função segura para avaliar expressões
+    // Safe function to evaluate expressions
     function evaluateExpression(expression) {
         try {
             return Function('"use strict";return (' + expression + ')')();
